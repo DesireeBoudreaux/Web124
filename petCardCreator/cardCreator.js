@@ -96,5 +96,5 @@ Reflection Questions
     "this.owner?.name" checks to make sure the owner exists before trying to pull the owners name. If the owner is null or undefined, it prevents errors and allows the return of "none".
 
 3. Why might the Date object be useful in a JS program?
-    The Date object is useful for getting the current date and time, creating timestamps, event logging, scheduling, or tracking happenings in a program.    
+    The date object is useful for getting the current date and time, creating timestamps, event logging, scheduling, or tracking happenings in a program.    
 */
