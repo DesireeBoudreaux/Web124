@@ -90,10 +90,10 @@ Reflection Questions
 ====================
 
 1.What does this refer to in your constructor and methods?
-    "this" refers to the pet object that gets created when I use the Pet constructor. Each pet has its own "this", so it refers to that pet’s name, type, age, owner, and method.
+    "this" is referring to the specific pet object that gets created when the Pet constructor is called. Each pet gets its own version of "this", so it refers to that pet’s name, type, age, owner, & methods.
 
 2. What does optional chaining do in your code?
-    (this.owner?.name) checks whether the owner exists before trying to access the name (safe method). If the owner is null or undefined, it prevents errors and allows the return of "none".
+    "this.owner?.name" checks to make sure the owner exists before trying to pull the owners name. If the owner is null or undefined, it prevents errors and allows the return of "none".
 
 3. Why might the Date object be useful in a JS program?
     The Date object is useful for getting the current date and time, creating timestamps, event logging, scheduling, or tracking happenings in a program.    
