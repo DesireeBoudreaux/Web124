@@ -1,0 +1,40 @@
+<!-- Desiree Boudreaux WK 6 7/15/2026 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Browser Info Dashboard</title>
+    <script src="dashboard.js" defer></script>
+</head>
+
+<body>
+    <h1>Browser Info Dashboard</h1>
+    <p>Enter your info in the form below to view your browsers details.</p>
+
+    <!-- Form -->
+    <form name="userForm" id="userForm">
+        <label for="userName">Enter your name:</label><br>
+        <input type="text" id="userName" name="userName" placeholder="Sponge Bob"><br><br>
+
+        <label for="favoriteSite">Enter your favorite website address and please include https:// in the address:</label><br>
+        <input type="text" id="favoriteSite" name="favoriteSite" placeholder="https://favoritewebsite.com"><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <hr>
+
+    <!-- Output Section -->
+    <section id="output"></section>
+
+    <hr>
+
+    <!-- History Buttons -->
+    <button id="backBtn">Back</button>
+    <button id="forwardBtn">Forward</button>
+
+</body>
+
+</html>
