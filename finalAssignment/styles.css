@@ -1,0 +1,81 @@
+/* Desiree Boudreaux Final Wk7 7/21/2026 */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #FAF7F2; /* creamish white */
+  color: #3A3A3A; /* charcoal for text */
+}
+
+/* Header */
+header {
+  background-color: #C9C9D1; /* stone gray */
+  color: #3A3A3A;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: #3A3A3A;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  background: #F3DDE8; /* very soft pink */
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 2px solid #E4E4EB; /* silver */
+  box-shadow: 0 2px 6px rgba(201, 201, 209, 0.25); /* gray shadow */
+}
+
+/* Buttons */
+button {
+  background-color: #C9C9D1; /* stone gray */
+  color: #3A3A3A;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #B8B8C2; /* slightly deeper stone gray*/
+}
+
+/* Images */
+figure img {
+  max-width: 100%;
+  border-radius: 12px;
+  border: 4px solid #E4E4EB; /* silver */
+  box-shadow: 0 4px 10px rgba(201, 201, 209, 0.3); /* soft stone shadow */
+}
+
+/* Footer */
+footer {
+  background-color: #C9C9D1; /* stone gray */
+  color: #3A3A3A;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Responsive Navigation */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
