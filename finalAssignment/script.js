@@ -7,7 +7,7 @@ const kitchenTools = ["Cast Iron Skillet", "Dutch Oven", "Stock Pot", "Pots", "P
 // Object representing a cooking profile
 const cookingProfile = {
   name: "Desiree",
-  favoriteCuisine: "Italian",
+  favoriteCuisine: "I love many types of foods!",
   skillLevel: "A Creative Intermediate"
 };
 
