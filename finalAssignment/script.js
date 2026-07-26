@@ -43,7 +43,7 @@ const cookbooks = [
 // Array of cooking tips
 const cookingTips = [
   "Always preheat your oven.",
-  "Always preheat your pan.",
+  "Dont be afraid to try something new.",
   "Season as you cook.",
   "Taste as you go.",
   "Let meat rest before cutting.",
